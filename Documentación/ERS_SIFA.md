@@ -70,9 +70,9 @@ El sistema está dirigido a fiscalizadores municipales, administrativos JPL, sup
 | [Diagrama de componentes](Diagramas%20Scrum/Diagrama%20de%20componentes.pdf)                   |
 | [Diagrama de flujo](Diagramas%20Scrum/Diagrama%20de%20flujo.pdf)                               |
 | [Esquema BD](Diagramas%20Scrum/Esquema%20BD.pdf)                                               |
-| [Presentación defensa](`PRESENTACIONES/Defensa Proyecto de Título SIFA.pptx.pdf`)              |
-
----
+| [Mapa de Impacto](Diagramas%20Scrum/)                                                          |
+| [Mapa Historias de Usuario](Diagramas%20Scrum/User%20Story%20Mapping.pdf)                      |
+| ##                                                                                             |
 
 ## 2. Descripción General del Proyecto
 
@@ -149,7 +149,9 @@ SIFA propone un ecosistema digital integrado que permite:
 
 ### 3.1 Mapa de Actores
 
-_Ver diagrama original en:_ [Mapa de actores](Diagramas%20Scrum/Mapa%20de%20actores.pdf)
+![Mapa de actores](Diagramas%20Scrum/imgs/Mapa%20de%20actores_page-0001.jpg)
+
+_Ver diagrama original:_ [Mapa de actores](Diagramas%20Scrum/Mapa%20de%20actores.pdf)
 
 ### 3.2 Descripción de Actores
 
@@ -172,6 +174,8 @@ _Ver diagrama original en:_ [Mapa de actores](Diagramas%20Scrum/Mapa%20de%20acto
 ---
 
 ## 4. Requisitos Funcionales
+
+_Ver Documento:_ [Requisistos Funcionales](Docs%20Scrum/Requisitos%20Funcionales.docx)
 
 ### 4.1 Aplicación Móvil (SIFA GO)
 
@@ -232,6 +236,8 @@ _Ver diagrama original en:_ [Mapa de actores](Diagramas%20Scrum/Mapa%20de%20acto
 ---
 
 ## 5. Requisitos No Funcionales
+
+_Ver Documento:_ [Requisitos No Funcionales](Docs%20Scrum/Requisitos%20No%20Funcionales.docx)
 
 ### 5.1 Rendimiento
 
@@ -300,6 +306,8 @@ _Ver diagrama original en:_ [Mapa de actores](Diagramas%20Scrum/Mapa%20de%20acto
 ---
 
 ## 6. Épicas e Historias de Usuario
+
+_Ver Documento:_ [Épicas e Historias de Usuario](Docs%20Scrum/Épicas,%20historias%20de%20usuario%20y%20sprints.docx)
 
 ### 6.1 Épicas del Proyecto
 
@@ -383,9 +391,9 @@ _Ver diagrama original en:_ [Mapa de actores](Diagramas%20Scrum/Mapa%20de%20acto
 
 ### 7.1 Diagrama de Arquitectura
 
-![Placeholder: Diagrama de arquitectura SIFA](https://via.placeholder.com/900x500?text=Diagrama+de+Arquitectura+SIFA)
+![Diagrama de Arquitectura](Diagramas%20Scrum/imgs/Diagrama%20de%20arquitectura_page-0001.jpg)
 
-_Ver diagrama original en:_ `Documentación/Diagramas Scrum/Diagrama de arquitectura.pdf`
+_Ver diagrama original:_ [Diagrama de Arquitectura](Diagramas%20Scrum/Diagrama%20de%20arquitectura.pdf)
 
 ### 7.2 Estilo Arquitectónico
 
@@ -439,27 +447,27 @@ _Ver diagrama original en:_ `Documentación/Diagramas Scrum/Diagrama de arquitec
 
 ### 7.5 Diagrama de Componentes
 
-![Placeholder: Diagrama de componentes](https://via.placeholder.com/800x400?text=Diagrama+de+Componentes+SIFA)
+![Diagrama de Componentes](Diagramas%20Scrum/imgs/Diagrama%20de%20componentes_page-0001.jpg)
 
-_Ver diagrama original en:_ `Documentación/Diagramas Scrum/Diagrama de componentes.pdf`
+_Ver diagrama original:_ [Diagrama de Componentes](Diagramas%20Scrum/Diagrama%20de%20componentes.pdf)
 
 ### 7.6 Diagrama de Casos de Uso
 
-![Placeholder: Diagrama de casos de uso](https://via.placeholder.com/800x400?text=Diagrama+de+Casos+de+Uso+SIFA)
+![Diagrama de Casos de Uso](Diagramas%20Scrum/imgs/Diagrama%20de%20casos%20de%20uso_page-0001.jpg)
 
-_Ver diagrama original en:_ `Documentación/Diagramas Scrum/Diagrama de casos de uso.pdf`
+_Ver diagrama original:_ [Diagrama de Casos de Uso](Diagramas%20Scrum/Diagrama%20de%20casos%20de%20uso.pdf)
 
 ### 7.7 Diagrama de Flujo
 
-![Placeholder: Diagrama de flujo del proceso de fiscalización](https://via.placeholder.com/800x400?text=Diagrama+de+Flujo+SIFA)
+![Diagrama de Flujo](Diagramas%20Scrum/imgs/Diagrama%20de%20flujo_page-0001.jpg)
 
-_Ver diagrama original en:_ `Documentación/Diagramas Scrum/Diagrama de flujo.pdf`
+_Ver diagrama original:_ [Diagrama de Flujo](Diagramas%20Scrum/Diagrama%20de%20flujo.pdf)
 
 ### 7.8 Esquema de Base de Datos
 
-![Placeholder: Esquema de base de datos](https://via.placeholder.com/800x500?text=Esquema+de+Base+de+Datos+SIFA)
+![Esquema de Base de Datos](Diagramas%20Scrum/imgs/Esquema%20BD_page-0001.jpg)
 
-_Ver diagrama original en:_ `Documentación/Diagramas Scrum/Esquema BD.pdf`
+_Ver diagrama original:_ [Esquema de Base de Datos](Diagramas%20Scrum/Esquema%20BD.pdf)
 
 Entidades principales:
 
@@ -478,24 +486,28 @@ Entidades principales:
 
 Los siguientes diagramas se encuentran disponibles en formato PDF dentro del repositorio:
 
-| Diagrama                 | Archivo                                                      |
-| ------------------------ | ------------------------------------------------------------ |
-| Diagrama de Arquitectura | `Documentación/Diagramas Scrum/Diagrama de arquitectura.pdf` |
-| Diagrama de Casos de Uso | `Documentación/Diagramas Scrum/Diagrama de casos de uso.pdf` |
-| Diagrama de Componentes  | `Documentación/Diagramas Scrum/Diagrama de componentes.pdf`  |
-| Diagrama de Flujo        | `Documentación/Diagramas Scrum/Diagrama de flujo.pdf`        |
-| Esquema de Base de Datos | `Documentación/Diagramas Scrum/Esquema BD.pdf`               |
-| Impact Mapping           | `Documentación/Diagramas Scrum/Impact Mapping.pdf`           |
-| Mapa de Actores          | `Documentación/Diagramas Scrum/Mapa de actores.pdf`          |
-| User Story Mapping       | `Documentación/Diagramas Scrum/User Story Mapping.pdf`       |
+| Diagrama                 | Archivo                                                                                                              |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------------- |
+| Diagrama de Arquitectura | [Documentación/Diagramas Scrum/Diagrama de arquitectura.pdf](Diagramas%20Scrum/Diagrama%20de%20arquitectura.pdf)     |
+| Diagrama de Casos de Uso | [Documentación/Diagramas Scrum/Diagrama de casos de uso.pdf](Diagramas%20Scrum/Diagrama%20de%20casos%20de%20uso.pdf) |
+| Diagrama de Componentes  | [Documentación/Diagramas Scrum/Diagrama de componentes.pdf](Diagramas%20Scrum/Diagrama%20de%20componentes.pdf)       |
+| Diagrama de Flujo        | [Documentación/Diagramas Scrum/Diagrama de flujo.pdf](Diagramas%20Scrum/Diagrama%20de%20flujo.pdf)                   |
+| Esquema de Base de Datos | [Documentación/Diagramas Scrum/Esquema BD.pdf](Diagramas%20Scrum/Esquema%20BD.pdf)                                   |
+| Impact Mapping           | [Documentación/Diagramas Scrum/Impact Mapping.pdf](Diagramas%20Scrum/Impact%20Mapping.pdf)                           |
+| Mapa de Actores          | [Documentación/Diagramas Scrum/Mapa de actores.pdf](Diagramas%20Scrum/Mapa%20de%20actores.pdf)                       |
+| User Story Mapping       | [Documentación/Diagramas Scrum/User Story Mapping.pdf](Diagramas%20Scrum/User%20Story%20Mapping.pdf)                 |
 
 ### Impact Mapping
 
-![Placeholder: Impact Mapping](https://via.placeholder.com/800x400?text=Impact+Mapping+SIFA)
+![Placeholder: Impact Mapping](Diagramas%20Scrum/imgs/Impact%20Mapping_page-0001.jpg)
+
+_Ver diagrama original:_ [Impact Mapping](Diagramas%20Scrum/Impact%20Mapping.pdf)
 
 ### User Story Mapping
 
-![Placeholder: User Story Mapping](https://via.placeholder.com/800x400?text=User+Story+Mapping+SIFA)
+![Placeholder: User Story Mapping](Diagramas%20Scrum/imgs/User%20Story%20Mapping_page-0001.jpg)
+
+_Ver diagrama original:_ [User Story Mapping](Diagramas%20Scrum/User%20Story%20Mapping.pdf)
 
 ---
 
@@ -503,15 +515,20 @@ Los siguientes diagramas se encuentran disponibles en formato PDF dentro del rep
 
 ### 9.1 Mockup Aplicación Móvil
 
-![Placeholder: Mockup App Móvil SIFA GO](https://via.placeholder.com/400x800?text=Mockup+App+Movil+SIFA+GO)
+![Placeholder: Mockup App Móvil SIFA GO](Mockups/Mockup%20App%20Móvil.png)
 
-_Ver mockup original en:_ `Documentación/Mockups/Mockup App Móvil.png`
+_Ver mockup original en:_ [Mockup App Móvil SIFA GO](Mockups/Mockup%20App%20Móvil.png)
 
-### 9.2 Prototipos UI/UX (Figma)
+### 9.2 Mockup Aplicación Web
 
-Los prototipos de alta fidelidad están disponibles en Figma:
+![Placeholder: Mockup Aplicación Web](Mockups/Mockup%20web01.jpg)
 
-[Diseño UI/UX en Figma](https://www.figma.com/design/lPnmPA1nVhkHiIynNSZC1I/SIFA)
+![Placeholder: Mockup Aplicación Web](Mockups/Mockup%20web02.jpg)
+
+_Ver mockup original en:_
+
+- [Mockup Aplicación Web page 1](Mockups/Mockup%20web01.jpg)
+- [Mockup Aplicación Web page 2](Mockups/Mockup%20web02.jpg)
 
 ### 9.3 Pantallas Principales
 
@@ -588,5 +605,3 @@ Los prototipos de alta fidelidad están disponibles en Figma:
 ---
 
 **Fin del documento ERS — SIFA v1.0**
-
-_Documento generado a partir del análisis completo de la documentación del proyecto SIFA._
