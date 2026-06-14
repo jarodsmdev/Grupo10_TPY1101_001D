@@ -69,7 +69,7 @@ El sistema está dirigido a fiscalizadores municipales, administrativos JPL, sup
 | [Diagrama de casos de uso](Diagramas%20Scrum/Diagrama%20de%20casos%20de%20uso.pdf)             |
 | [Diagrama de componentes](Diagramas%20Scrum/Diagrama%20de%20componentes.pdf)                   |
 | [Diagrama de flujo](Diagramas%20Scrum/Diagrama%20de%20flujo.pdf)                               |
-| [Esquema BD](Diagramas%20Scrum/Esquema%20BD.pdf)                                               |
+| [Esquema BD](Diagramas%20Scrum/Esquema_BD.pdf)                                                 |
 | [Mapa de Impacto](Diagramas%20Scrum/)                                                          |
 | [Mapa Historias de Usuario](Diagramas%20Scrum/User%20Story%20Mapping.pdf)                      |
 | ##                                                                                             |
@@ -465,9 +465,9 @@ _Ver diagrama original:_ [Diagrama de Flujo](Diagramas%20Scrum/Diagrama%20de%20f
 
 ### 7.8 Esquema de Base de Datos
 
-![Esquema de Base de Datos](Diagramas%20Scrum/imgs/Esquema%20BD_page-0001.jpg)
+![Esquema de Base de Datos](Diagramas%20Scrum/imgs/Esquema_BD.png)
 
-_Ver diagrama original:_ [Esquema de Base de Datos](Diagramas%20Scrum/Esquema%20BD.pdf)
+_Ver diagrama original:_ [Esquema de Base de Datos](Diagramas%20Scrum/Esquema_BD.pdf)
 
 Entidades principales:
 
@@ -492,7 +492,7 @@ Los siguientes diagramas se encuentran disponibles en formato PDF dentro del rep
 | Diagrama de Casos de Uso | [Documentación/Diagramas Scrum/Diagrama de casos de uso.pdf](Diagramas%20Scrum/Diagrama%20de%20casos%20de%20uso.pdf) |
 | Diagrama de Componentes  | [Documentación/Diagramas Scrum/Diagrama de componentes.pdf](Diagramas%20Scrum/Diagrama%20de%20componentes.pdf)       |
 | Diagrama de Flujo        | [Documentación/Diagramas Scrum/Diagrama de flujo.pdf](Diagramas%20Scrum/Diagrama%20de%20flujo.pdf)                   |
-| Esquema de Base de Datos | [Documentación/Diagramas Scrum/Esquema BD.pdf](Diagramas%20Scrum/Esquema%20BD.pdf)                                   |
+| Esquema de Base de Datos | [Documentación/Diagramas Scrum/Esquema_BD.pdf](Diagramas%20Scrum/Esquema_BD.pdf)                                     |
 | Impact Mapping           | [Documentación/Diagramas Scrum/Impact Mapping.pdf](Diagramas%20Scrum/Impact%20Mapping.pdf)                           |
 | Mapa de Actores          | [Documentación/Diagramas Scrum/Mapa de actores.pdf](Diagramas%20Scrum/Mapa%20de%20actores.pdf)                       |
 | User Story Mapping       | [Documentación/Diagramas Scrum/User Story Mapping.pdf](Diagramas%20Scrum/User%20Story%20Mapping.pdf)                 |
