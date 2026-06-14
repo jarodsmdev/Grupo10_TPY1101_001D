@@ -2,7 +2,7 @@
 
 **SIFA** es un ecosistema de microservicios desarrollado para la **I. Municipalidad de El Quisco**, cuyo objetivo es digitalizar y automatizar el proceso de fiscalización vehicular mediante detección de patentes con inteligencia artificial, gestión de infracciones, y emisión de citaciones del Juzgado de Policía Local (JPL).
 
-Este repositorio centraliza la documentación y los enlaces de todos los microservicios que componen el proyecto, desarrollado como evaluación para el ramo **Taller Aplicado de Programación TPY1101-001D** de la **Escuela de Informática de DUOC UC**.
+Este repositorio centraliza la documentación y los enlaces de todos los microservicios que componen el proyecto, desarrollado como evaluación para el ramo **Taller Aplicado de Programación TPY1101-001D** de la **Escuela de Informática de DUOC UC - Sede Viña del Mar**.
 
 ---
 

@@ -600,7 +600,7 @@ _Ver mockup original en:_
 - **Canva (Diagramas):** https://www.canva.com/design/DAHETfLsYtY/CRJ4o-yosxk7U3FmVpG3VA/edit
 - **Jira (SCRUM):** https://sifa-proyect.atlassian.net/jira/software/projects/SCRUM/boards/1
 - **Miro (Arquitectura):** [Tablero Miro](https://miro.com/welcomeonboard/NGJXeTJZb2l6dC9zWm43NVFzWWpVZVRYM2lMMzBJeUxwSE9NNm9pMGZWRUlxWGF4VnViaEl5aFJNK2MwTDc5Z3VCK05DWDZ2TnNEZDduRHdxai9VSWlidTZRK2Z1L2hVMk1VUTZhL0ViR0NWL2lXaktHaE5BZU1iVFdqT0pxam5BS2NFM01kcUNFSnM0d3FEN050ekl3PT0hdjE=)
-- **Mockup Móvil:** `Documentación/Mockups/Mockup App Móvil.png`
+- **Mockup Móvil:** ![Mockup Móvil](/Documentación/Mockups/Mockup%20App%20Móvil.png)
 
 ---
 
