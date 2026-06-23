@@ -596,7 +596,7 @@ _Ver mockup original en:_ [Mockup Aplicación Web page 1](https://github.com/jar
 - **Canva (Diagramas):** https://www.canva.com/design/DAHETfLsYtY/CRJ4o-yosxk7U3FmVpG3VA/edit
 - **Jira (SCRUM):** https://sifa-proyect.atlassian.net/jira/software/projects/SCRUM/boards/1
 - **Miro (Arquitectura):** [Tablero Miro](https://miro.com/welcomeonboard/NGJXeTJZb2l6dC9zWm43NVFzWWpVZVRYM2lMMzBJeUxwSE9NNm9pMGZWRUlxWGF4VnViaEl5aFJNK2MwTDc5Z3VCK05DWDZ2TnNEZDduRHdxai9VSWlidTZRK2Z1L2hVMk1VUTZhL0ViR0NWL2lXaktHaE5BZU1iVFdqT0pxam5BS2NFM01kcUNFSnM0d3FEN050ekl3PT0hdjE=)
-- **Plan de Pruebas:** [Informe](PLAN_DE_PRUEBAS/PLAN_DE_PRUEBAS_SIFA.pdf)
+- **Plan de Pruebas:** [Informe](https://github.com/jarodsmdev/Grupo10_TPY1101_001D/blob/main/Documentaci%C3%B3n/PLAN_DE_PRUEBAS/PLAN_DE_PRUEBAS_SIFA.pdf)
 
 ---
 
