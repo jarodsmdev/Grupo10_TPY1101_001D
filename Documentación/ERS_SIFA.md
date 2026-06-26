@@ -1,6 +1,6 @@
 # ERS — Especificación de Requisitos de Software
 
-## SIFA: Sistema Integrado de Fiscalización Automatizada
+## SIFA: Sistema de Inteligencia para Fiscalización Automática
 
 | Versión | Fecha      | Autor       | Descripción                       |
 | ------- | ---------- | ----------- | --------------------------------- |
@@ -57,22 +57,22 @@ El sistema está dirigido a fiscalizadores municipales, administrativos JPL, sup
 
 ### 1.4 Referencias
 
-| Documentos                                                                                     |
-| ---------------------------------------------------------------------------------------------- |
-| [Visión del proyecto + 4 pilares](Docs%20Scrum/Visión%20del%20proyecto%20+%204%20pilares.docx) |
-| [Análisis del caso](Docs%20Scrum/Analisis%20del%20caso.docx)                                   |
-| [Requisitos Funcionales](Docs%20Scrum/Requisitos%20Funcionales.docx)                           |
-| [Requisitos No Funcionales](Docs%20Scrum/Requisitos%20No%20Funcionales.docx)                   |
-| [Épicas y user stories](Docs%20Scrum/Épicas,%20historias%20de%20usuario%20y%20sprints.docx)    |
-| [Roles y acciones](Docs%20Scrum/Roles%20y%20acciones.docx)                                     |
-| [Diagrama de arquitectura](Diagramas%20Scrum/Diagrama%20de%20arquitectura.pdf)                 |
-| [Diagrama de casos de uso](Diagramas%20Scrum/Diagrama%20de%20casos%20de%20uso.pdf)             |
-| [Diagrama de componentes](Diagramas%20Scrum/Diagrama%20de%20componentes.pdf)                   |
-| [Diagrama de flujo](Diagramas%20Scrum/Diagrama%20de%20flujo.pdf)                               |
-| [Esquema BD](Diagramas%20Scrum/Esquema_BD.pdf)                                                 |
-| [Mapa de Impacto](Diagramas%20Scrum/)                                                          |
-| [Mapa Historias de Usuario](Diagramas%20Scrum/User%20Story%20Mapping.pdf)                      |
-| ##                                                                                             |
+| Documentos                                                                                                                                                                          |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Visión del proyecto + 4 pilares](https://github.com/jarodsmdev/Grupo10_TPY1101_001D/blob/main/Documentaci%C3%B3n/Docs%20Scrum/Visi%C3%B3n%20del%20proyecto%20+%204%20pilares.docx) |
+| [Análisis del caso](https://github.com/jarodsmdev/Grupo10_TPY1101_001D/blob/main/Documentaci%C3%B3n/Docs%20Scrum/Analisis%20del%20caso.docx)                                        |
+| [Requisitos Funcionales](https://github.com/jarodsmdev/Grupo10_TPY1101_001D/blob/main/Documentaci%C3%B3n/Docs%20Scrum/Requisitos%20Funcionales.docx)                                |
+| [Requisitos No Funcionales](https://github.com/jarodsmdev/Grupo10_TPY1101_001D/blob/main/Documentaci%C3%B3n/Docs%20Scrum/Requisitos%20No%20Funcionales.docx)                        |
+| [Épicas y user stories](https://github.com/jarodsmdev/Grupo10_TPY1101_001D/blob/main/Documentaci%C3%B3n/Docs%20Scrum/%C3%89picas,%20historias%20de%20usuario%20y%20sprints.docx)    |
+| [Roles y acciones](https://github.com/jarodsmdev/Grupo10_TPY1101_001D/blob/main/Documentaci%C3%B3n/Docs%20Scrum/Roles%20y%20acciones.docx)                                          |
+| [Diagrama de arquitectura](https://github.com/jarodsmdev/Grupo10_TPY1101_001D/blob/main/Documentaci%C3%B3n/Diagramas%20Scrum/Diagrama%20de%20arquitectura.pdf)                      |
+| [Diagrama de casos de uso](https://github.com/jarodsmdev/Grupo10_TPY1101_001D/blob/main/Documentaci%C3%B3n/Diagramas%20Scrum/Diagrama%20de%20casos%20de%20uso.pdf)                  |
+| [Diagrama de componentes](https://github.com/jarodsmdev/Grupo10_TPY1101_001D/blob/main/Documentaci%C3%B3n/Diagramas%20Scrum/Diagrama%20de%20componentes.pdf)                        |
+| [Diagrama de flujo](https://github.com/jarodsmdev/Grupo10_TPY1101_001D/blob/main/Documentaci%C3%B3n/Diagramas%20Scrum/Diagrama%20de%20flujo.pdf)                                    |
+| [Esquema BD](https://github.com/jarodsmdev/Grupo10_TPY1101_001D/blob/main/Documentaci%C3%B3n/Diagramas%20Scrum/Esquema_BD.pdf)                                                      |
+| [Mapa de Impacto](https://github.com/jarodsmdev/Grupo10_TPY1101_001D/blob/main/Documentaci%C3%B3n/Diagramas%20Scrum/Impact%20Mapping.pdf)                                           |
+| [Mapa Historias de Usuario](https://github.com/jarodsmdev/Grupo10_TPY1101_001D/blob/main/Documentaci%C3%B3n/Diagramas%20Scrum/User%20Story%20Mapping.pdf)                           |
+| ##                                                                                                                                                                                  |
 
 ## 2. Descripción General del Proyecto
 
@@ -429,7 +429,7 @@ _Ver diagrama original:_ [Diagrama de Arquitectura](https://github.com/jarodsmde
                          │
           ┌──────────────┴──────────────┐
           │     AWS Cloud (Terraform)   │
-          │  EC2, VPC, S3, NAT, EIP    │
+          │  EC2, VPC, S3, NAT, EIP     │
           └─────────────────────────────┘
 ```
 
