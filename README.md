@@ -1,4 +1,4 @@
-# SIFA — Sistema Integrado de Fiscalización Automatizada
+# SIFA — Sistema de Inteligencia de Fiscalización Automática 
 
 **SIFA** es un ecosistema de microservicios desarrollado para la **I. Municipalidad de El Quisco**, cuyo objetivo es digitalizar y automatizar el proceso de fiscalización vehicular mediante detección de patentes con inteligencia artificial, gestión de infracciones, y emisión de citaciones del Juzgado de Policía Local (JPL).
 
@@ -42,7 +42,7 @@ Este repositorio centraliza la documentación y los enlaces de todos los microse
                          │
           ┌──────────────┴──────────────┐
           │     AWS Cloud (Terraform)   │
-          │  EC2, VPC, S3, NAT, EIP    │
+          │  EC2, VPC, S3, NAT, EIP     │
           └─────────────────────────────┘
 ```
 
@@ -86,8 +86,8 @@ Microservicio de autenticación basado en **Spring Boot 3 + Spring Security + JW
 ### 3. Core Service (`BEsifaCoreService`)
 Microservicio central que gestiona infracciones, evidencias fotográficas (imágenes encriptadas) y citaciones JPL. No valida JWT directamente; recibe la identidad del usuario desde el Gateway mediante headers. Es el cerebro de la lógica de negocio del sistema.
 
-### 4. YOLO Plate Detector (`sifaPlateDetectorBE`)
-Servicio de **visión artificial** desarrollado en **FastAPI**. Utiliza un modelo **YOLO** para detectar patentes vehiculares en imágenes y **Tesseract OCR** para extraer el texto. Corre en un contenedor Docker y expone un endpoint `POST /detect`.
+### 4. Plate Detector (`sifaPlateDetectorBE`)
+Servicio de **visión artificial** desarrollado en **FastAPI**. Utiliza un modelo **YOLO** para detectar patentes vehiculares en imágenes y **Paddle OCR** para extraer el texto. Corre en un contenedor Docker y expone un endpoint `POST /detect`.
 
 ### 5. Dashboard Web SIFA (`SIFA_Dashboard`)
 Panel administrativo construido con **React 18 + Vite + Tailwind CSS**. Incluye:
@@ -112,7 +112,7 @@ Módulo adicional de Terraform para desplegar una instancia EC2 con **MySQL** pr
 ## Flujo de Funcionamiento
 
 1. **Captura:** El fiscalizador usa **SIFA GO** (móvil) para fotografiar una patente.
-2. **Detección:** La imagen se envía al **YOLO Plate Detector**, que devuelve el texto de la patente.
+2. **Detección:** La imagen se envía al **Plate Detector**, que devuelve el texto de la patente.
 3. **Consulta:** SIFA GO consulta el **Core Service** (vía API Gateway) para obtener datos del vehículo.
 4. **Validación:** El fiscalizador decide si cursar o no la infracción.
 5. **Gestión:** Las infracciones ingresadas se visualizan en el **Dashboard Web**, donde Administrativos JPL las revisan, aceptan o rechazan.
@@ -124,14 +124,14 @@ Módulo adicional de Terraform para desplegar una instancia EC2 con **MySQL** pr
 
 | Área | Tecnologías |
 |------|------------|
-| **Backend** | Java 17/21, Spring Boot 3, Spring Cloud Gateway, Spring Security, JPA |
-| **IA / OCR** | Python, FastAPI, YOLO, Tesseract OCR |
+| **Backend** | Java 17/21, Spring Boot 3, Spring Cloud Gateway, Spring Security, JPA, JWT |
+| **IA / OCR** | Python, FastAPI, YOLO, Paddle OCR |
 | **Frontend Web** | React 18, Vite, Tailwind CSS, Recharts, Leaflet, jsPDF |
 | **Mobile** | Kotlin, Jetpack Compose, CameraX, Retrofit |
 | **Base de Datos** | MySQL 8+ |
-| **Infraestructura** | Terraform, AWS (EC2, VPC, S3, NAT Gateway, DynamoDB) |
-| **Contenedores** | Docker, Docker Compose |
-
+| **Infraestructura** | Terraform, AWS (EC2, VPC, S3, NAT Gateway) |
+| **Contenedores** | Docker, Docker Compose, DockerHub |
+| **Servicios Adicionales** | Firebase (Notificaciones Push), Doppler, GitHub Actions |
 ---
 
 ## Estructura de este Repositorio
